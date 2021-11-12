@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Author: dotGIS corp
+# Author: José María Jiménez Manzano
 
 '''
 Hourly radiation
