@@ -1,6 +1,18 @@
 # PVGIS Analytics
 
-Collection of scripts to download and use PVGIS data
+### Collection of scripts to download and use PVGIS data.
+
+You have to set the Tool Name and Bounding Box to collect data 
+```
+(xmin: float, ymin: float, xmax: float, ymax: float, tool_name: str)
+```
+
+The script is developed to use a localhost Clickhouse DB, but you can dismiss and download as separate json.
+
+_For instructions to download and install Clickhouse, visit:_
+```
+https://clickhouse.com/docs/en/getting-started/tutorial/
+```
 
 ## What is PVGIS?
 PVGIS is a web site that gives you information about solar radiation and PhotoVoltaic (PV) system performance. You can use PVGIS to calculate how much energy you can get from different kinds of PV systems at nearly any place in the world.
