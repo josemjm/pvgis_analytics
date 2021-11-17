@@ -20,10 +20,10 @@ def create_lon_lat_df(xmin: float, ymin: float, xmax: float, ymax: float) -> pd.
     # Create an empty DataFrame and populate
     df = pd.DataFrame(columns=['lat', 'lon'])
 
-    xmin_100 = int(xmin * 100)
-    ymin_100 = int(ymin * 100)
-    xmax_100 = int(xmax * 100)
-    ymax_100 = int(ymax * 100)
+    xmin_100 = int(round(xmin * 100))
+    ymin_100 = int(round(ymin * 100))
+    xmax_100 = int(round(xmax * 100))
+    ymax_100 = int(round(ymax * 100))
 
     for lat in range(ymin_100, ymax_100, 5):
         for lon in range(xmin_100, xmax_100, 5):

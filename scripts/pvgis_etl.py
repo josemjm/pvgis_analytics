@@ -32,10 +32,10 @@ from uuid import uuid4
 tool_name = 'seriescalc'
 
 # Set the Bounding Box to collect data
-xmin = -3.8
-ymin = 40.3
-xmax = -3.5
-ymax = 40.6
+xmin = -4.6
+ymin = 39.85
+xmax = -3.1
+ymax = 41.2
 
 '''
 # Set the directory name for processed data

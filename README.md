@@ -14,6 +14,11 @@ _For instructions to download and install Clickhouse, visit:_
 https://clickhouse.com/docs/en/getting-started/tutorial/
 ```
 
+To execute ETL;
+```
+python3 scripts/pvgis_etl.py
+```
+
 ## What is PVGIS?
 PVGIS is a web site that gives you information about solar radiation and PhotoVoltaic (PV) system performance. You can use PVGIS to calculate how much energy you can get from different kinds of PV systems at nearly any place in the world.
 
